@@ -1,4 +1,7 @@
-title,release_year,genre
-Movie A,2020,Drama
-Movie B,2022,Comedy
-Movie C,2024,Action
+student_id,score
+1,80
+2,90
+2,90
+3,
+4,unknown
+5,85

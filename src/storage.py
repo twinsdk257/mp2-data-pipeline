@@ -23,6 +23,7 @@ class DatasetStorage:
             dataset_id,
             len(df)
         )
+        return dataset_id
 
     def get(self, dataset_id):
         """Return a copy of the stored DataFrame, or None."""
@@ -68,7 +69,6 @@ class DatasetStorage:
             dataset_id,
             len(df)
         )
-
         return True
 
     def clear(self):
